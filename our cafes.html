@@ -1,0 +1,334 @@
+<html>
+<head>
+    <title>OUR CAFES</title>
+    <style>
+        .wrapper{
+            padding: 5px;
+            max-width: 1050px;
+            width: 90%;
+            margin: 40px auto;
+        }
+        .columns{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 8px 0;
+        }
+        .column{
+            flex: 1;
+            margin: 5px;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        @media screen and (max-width:980px){
+            .columns .column{
+                margin-bottom: 5px;
+                flex-basis: 40%;
+            }
+            .columns .column:last-child{
+                flex-basis: 100%;
+                margin: 0;
+            }
+            .columns .column:nth-last-child(2){
+                margin-right: 0;
+            }
+        }
+        @media screen and (max-width:980px){
+            .columns .column{
+                flex-basis: 100%;
+                margin: 0 0 5px 0;
+            }
+        } 
+        
+        .circle{
+            width: 150px;
+            height: 150px;
+            background: skyblue;
+            border-radius: 50%;
+            position: relative;
+        }
+        .content{
+            position: absolute;
+            width: inherit;
+            height: auto;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-style: italic;
+        }
+        body{
+            background-color: black;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .button{
+            position: absolute;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+            cursor: pointer;
+            background: transparent;
+            border: 2.3px solid white;
+        }
+        .button:hover{
+            background-color:  white;
+            color: black;
+        }        
+        a{
+            text-decoration: none;
+        }
+        h1{
+            color: white;
+        }
+        #btn{
+            color: white;
+            text-decoration: none;
+            padding-left: 1000px;
+            font-size: 20px;
+        }
+        #btn:hover{
+            color: red;
+        }
+        p{
+            color: white;
+            text-align: center;
+        }
+
+        #wrapper{
+    padding: 5px;
+    max-width: 1800px;
+    width: 100%;
+    margin: 10px auto;
+    background-color: skyblue;
+}
+#columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 8px 0;
+}
+#column{
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+@media screen and (max-width:980px){
+    .columns .column{
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .columns .column:last-child{
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .columns .column:nth-last-child(2){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:980px){
+    .columns .column{
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+#button{
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 12px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="columns">
+            <div class="column">
+                <h1>CHANDIGARH</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>2</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                       <a href="https://bluetokaicoffee.com/pages/Chandigarh">VIEW LOCATIONS</a> 
+                </button><br><br><br><br>
+                <h1>MUMBAI</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>10</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                  <a href="https://bluetokaicoffee.com/pages/mumbai">VIEW LOCATIONS</a>  
+            </button><br><br><br><br>
+                <h1>BANGALORE</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>6</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                  <a href="https://bluetokaicoffee.com/pages/bangalore">VIEW LOCATIONS</a>  
+            </button><br><br><br><br>
+                <h1>HYDERABAD</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1></h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                   <a href="https://bluetokaicoffee.com/pages/hyderabad">VIEW LOCATIONS</a> 
+            </button><br><br><br><br>
+                <h1>MOHALI</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>1</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                   <a href="https://bluetokaicoffee.com/pages/mohali">VIEW LOCATIONS</a> 
+            </button><br><br><br><br>
+            </div>
+            <div class="column">
+                <h1>NEW DELHI</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>15</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                   <a href="https://bluetokaicoffee.com/pages/delhi">VIEW LOCATIONS</a> 
+            </button><br><br><br><br>
+                <h1>GURGAON</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>10</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                   <a href="https://bluetokaicoffee.com/pages/gurgaon">VIEW LOCATIONS</a> 
+            </button><br><br><br><br>
+
+                <h1>KOLKATA</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>4</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                   <a href="https://bluetokaicoffee.com/pages/kolkata">VIEW LOCATIONS</a> 
+            </button><br><br><br><br>
+
+                <h1>NOIDA</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>3</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                   <a href="https://bluetokaicoffee.com/pages/noida">VIEW LOCATIONS</a> 
+            </button><br><br><br><br>
+                <h1>PUNE</h1><br>
+                <div class="circle">
+                    <div class="content">
+                        <h1>3</h1>
+                        <h4>LOCATIONS</h4>
+                    </div>
+                </div><br><br>
+                <button class="button">
+                   <a href="https://bluetokaicoffee.com/pages/pune">VIEW LOCATIONS</a> 
+            </button><br><br><br><br>
+            </div>
+        </section>
+    </div>
+    <p>We look forward to seeing you at our cafes to enjoy carefully prepared espresso drinks, <br>
+        a rotating selection of manually brewed single estate coffees and to pick up a pack of <br>
+        freshly roasted coffee to brew later. We encourage transparency and learning so if you <br>
+        have any questions about how our coffees are sourced, roasted or brewed, please ask our <br>
+        baristas, email us with your questions at thoughts@bluetokaicoffee.com or feel free to go <br>
+        through our material on our website.</p><br>
+<a href="https://bluetokaicoffee.com/pages/our-cafes" id="btn">MORE INFO ></a>
+
+<div id="wrapper">
+    <section id="columns">
+        <div id="column">
+            <img src="tokailogo.jpg" width="180px" height="180px"><br>
+            <a href="https://twitter.com/BlueTokaiCoffee?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_self">
+                <img class="images" src="twitter1.jpg" width="30px" height="30px">
+              </a>
+              <a href="https://www.instagram.com/bluetokaicoffee/" target="_self">
+                <img class="images" src="instagram.jpg" width="30px" height="30px">
+              <a href="https://www.facebook.com/bluetokaicoffee/">
+                <img class="images" src="facebook.jpg" width="30px" height="30px">
+              </a>
+            <h4>BLUE TOKAI COFFEE ROASTERS <br>
+                PRIVACY POLICY <br>
+                COPYRIGHT © 2022</h4>
+        </div>
+        <div id="column">
+            <h3>Sign up for <br>
+                our newsletter!</h3>
+                <h4>RECEIVE SPECIAL OFFERS AND GET <br>
+                    ACCESS TO FIRST LOOK AT NEW PRODUCTS</h4> <br>
+                    <button id="button">
+                        <a href="https://manage.kmail-lists.com/subscriptions/subscribe?a=NhZK9V&g=UykMDE">SUBSCRIBE NOW</a>
+                     </button><br><br><br><br><br>   
+        </div>
+        <div id="column">
+            <ul>
+                <li>SHOP</li><br><br>
+                <li><a href="https://bluetokaicoffee.com/collections/coffee">Coffee</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/collections/equipment">Equipment</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/collections/tasters-club-2022">Tasters Club-New!</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/collections/pantry">Pantry</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/collections/merchandise">Merchandise</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/pages/collaborations">Collaborations</a></li><br><br><br>
+
+                <li><a href="https://bluetokaicoffee.com/pages/wholesale">wholesale</a></li>
+                <li><a href="https://bluetokaicoffee.com/pages/tracking">Track Order</a></li>
+                <li><a href="https://bluetokaicoffee.com/pages/returns-and-cancellations?_pos=3&_sid=a88ce9737&_ss=r">Return & Cancellations</a></li>
+            </ul> 
+        </div>
+        <div id="column">
+            <ul>
+                <li><a href="https://bluetokaicoffee.com/pages/about-us">Our Beliefs</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/pages/our-roasteries">Our Roasteries</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/pages/our-farms">Our Farms</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/blogs/press">Visit Us</a></li><br><br><br><br>
+
+                <li><a href="https://bluetokaicoffee.com/blogs/learn">LEARN</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/blogs/blue-tokai-coffee-roasters">PRESS & BLOG</a></li><br>
+                <li><a href="https://bluetokaicoffee.com/pages/careers">CAREERS</a></li>
+                <li><a href="https://bluetokaicoffee.com/pages/contact-us">CONTACT</a></li>
+            </ul> 
+        </div>
+    </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,244 @@
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+
+}
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: black;
+}
+header .navbar a:hover{
+    color: skyblue;
+}
+header .icons a{
+    font-size: 2.5rem;
+    color: gray;
+    margin-left: 1.5rem;
+}
+header .icons a:hover{
+    color: green;
+}
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: 5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: 1rem solid rgba(0,0,0,.1);
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 58vw;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 5px 6px 7px grey;
+}
+.images{
+    align-items: center;
+    padding: 12px;
+}
+.btn{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 1000px;
+}
+.btn:hover{
+    color: blue;
+}
+h2{
+    font-size: 35px;
+    padding-left: 100px;
+    text-shadow: 4px 5px 6px grey;
+}
+#box{
+    width: 250px;
+    margin:0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+.pics{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+#box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+#photos{
+    align-items: center;
+    padding: 20px;
+}
+.wrapper{
+    padding: 5px;
+    max-width: 1800px;
+    width: 90%;
+    margin: 10px auto;
+}
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 8px 0;
+}
+.column{
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+@media screen and (max-width:980px){
+    .columns .column{
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .columns .column:last-child{
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .columns .column:nth-last-child(2){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:980px){
+    .columns .column{
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
+} 
+b{
+    font-size: 40px;
+    padding-left: 250px;
+    text-shadow: 5px 6px 7px grey;
+}
+p{
+    font-size: 15px;
+    padding-left: 185px;
+}
+ul{
+    font-size: 30px;
+    padding-left: 200px;
+}
+#btn{
+    text-decoration: none;   
+    text-align: center;
+    padding-left: 250px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#btn:hover{
+    color: green;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 5px 6px 7px grey;
+}
+h4{
+    text-align: center;
+    font-size: 12px;
+}
+#wrapper{
+    padding: 5px;
+    max-width: 1800px;
+    width: 90%;
+    margin: 10px auto;
+}
+#columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 8px 0;
+}
+#column{
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+@media screen and (max-width:980px){
+    .columns .column{
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .columns .column:last-child{
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .columns .column:nth-last-child(2){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:980px){
+    .columns .column{
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
+} 
+h5{
+    text-align: center;
+    font-size: 10px;
+}
+.button{
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    cursor: pointer;
+    background: transparent;
+    border: 1.3px solid skyblue;
+}

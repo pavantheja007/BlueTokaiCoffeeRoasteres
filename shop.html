@@ -1,0 +1,109 @@
+<html>
+<head> 
+    <title>SHOP</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: poppins;
+        }
+        .wrapper{
+            padding: 5px;
+            max-width: 1050px;
+            width: 90%;
+            margin: 40px auto;
+        }
+        .columns{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 8px 0;
+        }
+        .column{
+            flex: 1;
+            margin: 5px;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        @media screen and (max-width:980px){
+            .columns .column{
+                margin-bottom: 5px;
+                flex-basis: 40%;
+            }
+            .columns .column:last-child{
+                flex-basis: 100%;
+                margin: 0;
+            }
+            .columns .column:nth-last-child(2){
+                margin-right: 0;
+            }
+        }
+        @media screen and (max-width:980px){
+            .columns .column{
+                flex-basis: 100%;
+                margin: 0 0 5px 0;
+            }
+        } 
+        ul{
+    list-style-type: none;  
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    }
+    img:hover{
+            padding-left: 70px;
+            transform: scale(1.3);
+            z-index: 2;
+            transition: 1s;
+        }   
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="columns">
+            <div class="column">
+                <h1>COFFEE</h1>
+                <img src="coffee.jpg" alt="coffee" width="200px" height="100px">
+                <ul>
+                    <li><a href="https://bluetokaicoffee.com/collections/coffee">Roasted & Ground</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/coffee">Coffee</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/capsules">Coffee Capsules</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/cold-brew-can">Cold Brew Cans</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/easy-pour">Easy Pour</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/coldbrewbags">Cold Brew Bags</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/starter-kits">Starter Kits</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h1>EQUIPMENT</h1>
+                <img src="equipment.jpg" alt="equipment" width="200px" height="100px">
+                <ul>
+                    <li><a href="https://bluetokaicoffee.com/collections/equipment">Brewing Equipment</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/coffee-grinders">Grinders</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/coffee-mugs">Coffee Mugs</a></li><br>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUfvRMcmRW_RQi7iVcAWMmCwHRQ6MMf7Qjsj0xHAlLW4S2Wg/viewform">Service Request</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/equipment-spare-parts">Spare Parts</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/roastery">Analyser</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><a href="https://bluetokaicoffee.com/collections/new-to-coffee-1">NEW TO COFFEE</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/french-press-offer">FRENCH PRESS OFFER!</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/tasters-club-2022">TASTER'S CLUB-NEW!</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><a href="https://bluetokaicoffee.com/collections/pantry">PANTRY</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/pages/collaborations">COLLABORATIONS</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/collections/merchandise">MERCHANDISE</a></li><br>
+                    <li><a href="https://bluetokaicoffee.com/pages/wholesale">WHOLESALE</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

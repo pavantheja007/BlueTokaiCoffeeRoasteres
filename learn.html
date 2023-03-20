@@ -1,0 +1,156 @@
+<html>
+<head>
+    <title>LEARN</title>
+    <style>
+         body{
+            background-color: black;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .wrapper{
+            padding: 5px;
+            max-width: 1050px;
+            width: 90%;
+            margin: 40px auto;
+        }
+        .columns{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 8px 0;
+        }
+        .column{
+            flex: 1;
+            margin: 5px;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        @media screen and (max-width:980px){
+            .columns .column{
+                margin-bottom: 5px;
+                flex-basis: 40%;
+            }
+            .columns .column:last-child{
+                flex-basis: 100%;
+                margin: 0;
+            }
+            .columns .column:nth-last-child(2){
+                margin-right: 0;
+            }
+        }
+        @media screen and (max-width:980px){
+            .columns .column{
+                flex-basis: 100%;
+                margin: 0 0 5px 0;
+            }
+        } 
+        
+        .button{
+            position: absolute;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+            cursor: pointer;
+            background: transparent;
+            border: 2.3px solid white;
+        }
+        .button:hover{
+            background-color:  white;
+            color: black;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        p{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+        h4{
+            color: white;
+            text-align: center;
+        }
+        #btn{
+            padding-left: 1000px;
+            font-size: 20px;
+            color: white;
+        }
+        #btn:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>LEARN BREWING</h1>
+    <h4>Learn to brew the perfect cup of coffee using a variety of different methods and equipment. <br> 
+        If you don't know where to start, check out the Coffee Starter Kits and <br>
+        we'll ensure that you have everything to begin your coffee journey!</h4>
+    <div class="wrapper">
+        <section class="columns">
+            <div class="column">
+                <p>SOUTH INDIAN FILTER</p>
+                <img src="learnc1.jpg"><br><br>
+                <button class="button">
+                    <a href="https://bluetokaicoffee.com/blogs/learn/south-indian-filter">READ MORE</a>
+                 </button><br><br><br><br><br>
+                <p>FRENCH PRESS</p>
+                <img src="learnc1.2.jpg"><br><br>
+                <button class="button">
+                 <a href="https://bluetokaicoffee.com/blogs/learn/french-press-brewing-guide">READ MORE</a> 
+                 </button><br><br><br><br><br>
+                 <p>MOKA POT</p>
+                 <img src="learnc1.3jpg.jpg"><br><br>
+                 <button class="button">
+                <a href="https://bluetokaicoffee.com/blogs/learn/moka-pot">READ MORE</a> 
+                 </button><br><br><br><br><br>
+                 <p>POUROVER</p>
+                 <img src="learnc1.4.jpg"><br><br>
+                <button class="button">
+                <a href="https://bluetokaicoffee.com/blogs/learn/pourover">READ MORE</a> 
+                  </button><br><br><br><br><br>
+            </div>
+            <div class="column">
+                <p>INVERTED AEROPRESS</p>
+                <img src="learnc2.1.jpg"><br><br>
+                <button class="button">
+                    <a href="https://bluetokaicoffee.com/blogs/learn/inverted-aeropress-1">READ MORE</a> 
+                 </button><br><br><br><br><br>
+                <p>CHANNI COFFEE</p>
+                <img src="learnc2.2.jpg"><br><br>
+                <button class="button">
+                 <a href="https://bluetokaicoffee.com/blogs/learn/channi-coffee">READ MORE</a> 
+                 </button><br><br><br><br><br>
+                 <p>ESPRESSO</p>
+                 <img src="learnc2.3.jpg"><br><br>
+                 <button class="button">
+                <a href="https://bluetokaicoffee.com/blogs/learn/espresso">READ MORE</a> 
+                 </button><br><br><br><br><br>
+            </div>
+            <div class="column">
+                <p>COLD BREW</p>
+                <img src="learnc3.1.jpg"><br><br>
+                <button class="button">
+                    <a href="https://bluetokaicoffee.com/blogs/learn/cold-brew-brewing-guide">READ MORE</a> 
+                 </button><br><br><br><br><br><br><br>
+                <p>ICED AEROPRESS</p>
+                <img src="learnc3.2.jpg"><br><br>
+                <button class="button">
+                 <a href="https://bluetokaicoffee.com/blogs/learn/iced-aeropress">READ MORE</a> 
+                 </button><br><br><br><br><br>
+                 <p>AEROPRESS</p>
+                 <img src="learnc3.3.jpg"><br><br>
+                 <button class="button">
+                <a href="https://bluetokaicoffee.com/blogs/learn/aeropress">READ MORE</a> 
+                 </button><br><br><br><br>
+            </div>
+        </section>
+    </div>
+    <a href="https://bluetokaicoffee.com/blogs/learn" id="btn">MORE INFO ></a>
+</body>
+</html>
